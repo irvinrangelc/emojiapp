@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
-
+  	// e.g.
+  	text: {
+  		type: 'string'
+  	}
   }
 };
 
