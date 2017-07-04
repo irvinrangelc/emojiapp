@@ -58,7 +58,7 @@ module.exports.connections = {
   ***************************************************************************/
   mongoLabMongoDb: {
     adapter: 'sails-mongo',
-    url: process.env.MONGOLAB_URI
+    url: process.env.MONGODB_URI
     //host: 'localhost',
     //port: 27017,
     //user: 'username', //optional
